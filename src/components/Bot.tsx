@@ -2001,15 +2001,12 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
                 />
               )}
             </div>
-            {/* <Badge
-              footer={props.footer}
+           <Badge
+              // footer={props.footer}
               badgeBackgroundColor={props.badgeBackgroundColor}
               poweredByTextColor={props.poweredByTextColor}
               botContainer={botContainer}
-            /> */}
-            <div class="w-full h-[5px] flex items-center justify-center border-t border-gray-200 bg-gray-50">
-              <span class="text-gray-400 text-sm">Placeholder Area</span>
-            </div>
+            /> 
           </div>
         </div>
       )}
