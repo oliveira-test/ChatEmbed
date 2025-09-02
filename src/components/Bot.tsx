@@ -2005,9 +2005,9 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
               footer={{
                 showFooter: false,
                 textColor: 'transparent',
-                text: "",
-                company: "",
-                companyLink: "https://www.bestqool.com/",
+                text: '',
+                company: '',
+                companyLink: 'https://www.bestqool.com/',
               }}
               badgeBackgroundColor={props.badgeBackgroundColor}
               poweredByTextColor={props.poweredByTextColor}
